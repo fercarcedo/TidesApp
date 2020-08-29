@@ -3,12 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph.xml"
-    app:startDestination="@id/portsFragment">
+    app:startDestination="@id/ports">
 
     <fragment
-        android:id="@+id/portsFragment"
+        android:id="@+id/ports"
         android:name="fergaral.tidesapp.PortsFragment"
-        android:label="PortsFragment"
+        android:label="@string/ports"
         tools:layout="@layout/fragment_ports" />
+
+    <fragment
+        android:id="@+id/favorites"
+        android:name="fergaral.tidesapp.FavoritesFragment"
+        android:label="@string/favorites"
+        tools:layout="@layout/fragment_favorites" />
 
 </navigation>
