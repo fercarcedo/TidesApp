@@ -1,7 +1,8 @@
-package fergaral.tidesapp
+package fergaral.tidesapp.db.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import fergaral.tidesapp.model.Location
 
 @Entity
 data class Favorite(

@@ -1,9 +1,10 @@
-package fergaral.tidesapp
+package fergaral.tidesapp.db.dao
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
+import fergaral.tidesapp.db.entity.Favorite
 
 @Dao
 interface FavoriteDao {

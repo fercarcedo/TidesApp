@@ -1,4 +1,4 @@
-package fergaral.tidesapp
+package fergaral.tidesapp.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,6 +9,8 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.observe
 import androidx.recyclerview.widget.GridLayoutManager
 import fergaral.tidesapp.databinding.FragmentPortsBinding
+import fergaral.tidesapp.ui.adapter.PortsAdapter
+import fergaral.tidesapp.viewmodel.PortsViewModel
 
 class PortsFragment : Fragment() {
 

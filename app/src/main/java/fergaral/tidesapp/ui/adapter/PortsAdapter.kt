@@ -1,10 +1,12 @@
-package fergaral.tidesapp
+package fergaral.tidesapp.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
+import fergaral.tidesapp.R
 import fergaral.tidesapp.databinding.PortItemBinding
+import fergaral.tidesapp.model.Port
 
 class PortsAdapter : RecyclerView.Adapter<PortsAdapter.PortsViewHolder>() {
 

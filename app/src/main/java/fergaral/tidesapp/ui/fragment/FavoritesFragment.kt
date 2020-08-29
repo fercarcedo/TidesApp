@@ -1,4 +1,4 @@
-package fergaral.tidesapp
+package fergaral.tidesapp.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater

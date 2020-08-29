@@ -1,4 +1,4 @@
-package fergaral.tidesapp
+package fergaral.tidesapp.service
 
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory

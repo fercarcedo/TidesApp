@@ -1,4 +1,4 @@
-package fergaral.tidesapp
+package fergaral.tidesapp.ui.view
 
 import android.content.Context
 import android.util.AttributeSet

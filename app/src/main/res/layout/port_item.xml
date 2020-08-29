@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <fergaral.tidesapp.SquareImageView android:id="@+id/port_iv"
+        <fergaral.tidesapp.ui.view.SquareImageView android:id="@+id/port_iv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scaleType="fitXY"

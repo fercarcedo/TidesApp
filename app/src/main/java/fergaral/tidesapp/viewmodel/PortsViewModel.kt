@@ -1,7 +1,8 @@
-package fergaral.tidesapp
+package fergaral.tidesapp.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
+import fergaral.tidesapp.repository.TidesRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

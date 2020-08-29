@@ -1,4 +1,4 @@
-package fergaral.tidesapp
+package fergaral.tidesapp.model
 
 data class Location(
     val lat: Double,

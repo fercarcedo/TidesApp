@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/ports"
-        android:name="fergaral.tidesapp.PortsFragment"
+        android:name="fergaral.tidesapp.ui.fragment.PortsFragment"
         android:label="@string/ports"
         tools:layout="@layout/fragment_ports" />
 
     <fragment
         android:id="@+id/favorites"
-        android:name="fergaral.tidesapp.FavoritesFragment"
+        android:name="fergaral.tidesapp.ui.fragment.FavoritesFragment"
         android:label="@string/favorites"
         tools:layout="@layout/fragment_favorites" />
 
