@@ -9,6 +9,7 @@ data class Favorite(
     @PrimaryKey val id: Int,
     val portName: String,
     val portCode: String,
-    val portLocation: Location,
+    val portLat: Long,
+    val portLng: Long,
     val portPhoto: String
 )
