@@ -1,10 +1,10 @@
 package fergaral.tidesapp.viewmodel
 
-import androidx.hilt.Assisted
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
+import dagger.assisted.Assisted
 import fergaral.tidesapp.repository.TidesRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
