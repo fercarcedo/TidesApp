@@ -1,17 +1,18 @@
 package fergaral.tidesapp.viewmodel
 
-import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
-import dagger.assisted.Assisted
+import dagger.hilt.android.lifecycle.HiltViewModel
 import fergaral.tidesapp.repository.TidesRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import javax.inject.Inject
 
-class PortsViewModel @ViewModelInject constructor(
+@HiltViewModel
+class PortsViewModel @Inject constructor(
     private val tidesRepository: TidesRepository,
-    @Assisted private val savedStateHandle: SavedStateHandle
+    private val savedStateHandle: SavedStateHandle
 ) : ViewModel() {
 
     val ports = liveData {
